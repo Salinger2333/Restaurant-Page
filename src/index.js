@@ -10,7 +10,7 @@ const btnMenu = document.querySelector('#btn-menu')
 const btnContact = document.querySelector('#btn-contact')
 
 btnHome.addEventListener('click', () => {
-    document.querySelector('#content').innerHTML = ''
+    document.querySelector('#content').replaceChildren()
     loadHome()
 })
 
