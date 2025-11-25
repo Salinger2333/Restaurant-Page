@@ -15,11 +15,11 @@ btnHome.addEventListener('click', () => {
 })
 
 btnMenu.addEventListener('click', () => {
-    document.querySelector('#content').innerHTML = ''
+    document.querySelector('#content').replaceChildren()
     LoadMenu()
 })
 
 btnContact.addEventListener('click', () => {
-    document.querySelector('#content').innerHTML = ''
+    document.querySelector('#content').replaceChildren()
     LoadContact()
 })
