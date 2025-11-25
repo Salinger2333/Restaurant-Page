@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+
+#content{
+    padding: 5rem;
+}
+header{
+    height: 5rem;
+    
+}
+nav{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 5rem;
+}
+nav button {
+    appearance: none;
+    width: 8rem;
+    height: 3rem;
+    border-radius: 12px;
+}
